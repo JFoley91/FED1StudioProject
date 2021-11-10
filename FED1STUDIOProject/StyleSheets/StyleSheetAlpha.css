@@ -1,0 +1,21 @@
+﻿body {
+    background-color: Khaki;
+}
+h1{
+    color:darkred;
+}
+
+p{
+    color: darkblue;
+}
+
+h2{
+    font-style: italic;
+    color:darkgreen;
+}
+
+#FT{
+    font-style: italic;
+    font-size: 20px;
+    color: purple
+}
