@@ -2,26 +2,28 @@
     background-color: Khaki;
 }
 
-header{
-    background-color: darkgray;
+header {
+    background-color: #ED8A11;
+    color: #234399;
 }
 
-h1{
-    color:darkred;
+h1 {
+    color: #234399;
 }
 
 p{
     color: darkblue;
 }
 
-h2{
+h2 {
     font-style: italic;
-    color:darkorchid;
+    color: #992811;
 }
 
 footer{
     background-color: darkgray;
 }
+
 
 #FT{
     font-style: italic;
