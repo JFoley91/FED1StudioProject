@@ -13,6 +13,7 @@ h1 {
 
 p{
     color: darkblue;
+    font-family: Papyrus;
 }
 
 h2 {
@@ -24,6 +25,15 @@ footer{
     background-color: darkgray;
 }
 
+
+li {
+    display: inline;
+    float: right;
+    padding: 8px;
+    display: block;
+    background-color: darkgray;
+    color: #992811;
+}
 
 #FT{
     font-style: italic;
