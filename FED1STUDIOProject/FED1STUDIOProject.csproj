@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
-    <Content Include="Delete.html" />
     <Content Include="StyleSheets\StyleSheetAlpha.css" />
     <Content Include="Team.html" />
     <Content Include="Index.html" />
