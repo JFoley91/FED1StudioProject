@@ -21,14 +21,9 @@ h2 {
     color: #992811;
 }
 
-footer{
-    background-color: darkgray;
-}
-
-
 li {
     display: inline;
-    float: right;
+    float: left;
     padding: 8px;
     display: block;
     background-color: darkgray;
@@ -40,3 +35,23 @@ li {
     font-size: 20px;
     color: purple
 }
+
+nav ul{
+    background-color: black;
+    padding: 0;
+    border-top: 4px medium;
+    border-bottom: 4px medium;        
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a:hover, nav a:active, nac a:focus{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: orange;
+}
+
