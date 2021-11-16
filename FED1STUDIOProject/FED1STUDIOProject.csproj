@@ -69,7 +69,12 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
-    <Content Include="StyleSheets\StyleSheetAlpha.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\Backdrop.png" />
+    <Content Include="Images\Bonfire.jpg" />
+    <Content Include="Images\Bonfireedit.jpg" />
+    <Content Include="Images\F.jpg" />
+    <Content Include="StyleSheets\Style1.css" />
     <Content Include="Team.html" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
@@ -88,7 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contact Info\" />
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
