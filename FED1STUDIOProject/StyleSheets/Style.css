@@ -1,14 +1,4 @@
-﻿/*font-family: 'Yuji Syuku', serif*/
-/*#region Colors */
-/*
-#992822(Dark Red)
-#000000(Black)
-#E08938(Orange)
-#FFFFFF(white)
-*/
-/*#endregion */
-
-body {
+﻿body {
     min-height: 100px;
     text-align: center;
     background: url(../Images/Backdrop.png) no-repeat center center fixed;
@@ -177,4 +167,28 @@ li {
     width: 235px;
     padding: 20px;
     font-size: 17px;
+}
+
+
+table, tr, td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+}
+
+thread{
+    background-color: blue;
+}
+
+tbody tr:nth-child(even){
+    background-color: red;
 }
