@@ -71,9 +71,22 @@
     <Content Include="Classes.html" />
     <Content Include="favicon.ico" />
     <Content Include="Images\Backdrop.png" />
-    <Content Include="Images\Bonfire.jpg" />
-    <Content Include="Images\Bonfireedit.jpg" />
+    <Content Include="Images\blacksmith.png" />
+    <Content Include="Images\CommonArea.png" />
+    <Content Include="Images\dragoon.png" />
+    <Content Include="Images\DRG.png" />
     <Content Include="Images\F.jpg" />
+    <Content Include="Images\headhsot3.png" />
+    <Content Include="Images\headshot1.png" />
+    <Content Include="Images\headshot2.png" />
+    <Content Include="Images\Library.png" />
+    <Content Include="Images\miner.png" />
+    <Content Include="Images\paladin.png" />
+    <Content Include="Images\Passout.png" />
+    <Content Include="Images\PLD.png" />
+    <Content Include="Images\RP.png" />
+    <Content Include="Images\whitemage.png" />
+    <Content Include="Images\WHM.png" />
     <Content Include="StyleSheets\Style1.css" />
     <Content Include="Team.html" />
     <Content Include="Index.html" />
@@ -83,7 +96,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

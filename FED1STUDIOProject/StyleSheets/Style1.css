@@ -7,97 +7,174 @@
 #FFFFFF(white)
 */
 /*#endregion */
-@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
-
-header {
-    width: 500px;
-    height: 150px;
-    border-radius: 150px;
-    background: content-box;
-}
-
-    header h1, header p {
-        color: floralwhite;
-        text-align: center;
-    }
-
-#frontDev {
-    width: 85px;
-    margin: auto;
-}
-
-h4 {
-    background-color: white;
-}
-
-nav a {
-    font-size: x-large;
-    font-weight: bold;
-    color: #fff
-}
-
-nav ul li a {
-    padding: .4em 1em;
-    display: block;
-}
-
-ul li a {
-    padding: .4em 1em;
-    display: block;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-}
-
-li:hover {
-    background: #0026ff;
-}
-
-h1 {
-    color: #992822
-}
-
-h2 {
-    color: #992822;
-}
-
-h3 {
-    color: #992822;
-}
-
-
 
 body {
+    min-height: 100px;
     text-align: center;
     background: url(../Images/Backdrop.png) no-repeat center center fixed;
     background-size: cover;
     background-color: cornflowerblue;
+    padding: 0;
     margin: 0;
 }
 
 main {
-    background-color: cornflowerblue;
-    opacity: .85;
+    background-color: white;
+    opacity: .8;
 }
 
-    main p {
-        color: floralwhite;
+nav {
+    opacity: .9;
+}
+
+header {
+    width: 100%;
+    padding: 6px;
+    border-radius: 150px;
+    background: content-box;
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
     }
 
-    main h2 {
-        font-style: italic;
+        li a:hover {
+            background-color: royalblue
+        }
+
+.smallBox {
+    height: auto;
+    border: 15px black;
+    padding: 9px;
+    margin: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.smallBoxL {
+    float: left;
+    height: auto;
+    border: 15px black;
+    padding: 9px;
+    margin: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.smallBoxR {
+    float: right;
+    height: auto;
+    border: 15px black;
+    padding: 9px;
+    margin: 5px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgSmallHead {
+    width: 30%;
+    float: left;
+}
+
+.imgSmallBox {
+    float: left;
+    width: 50%;
+}
+
+.imgSmallBoxR {
+    width: 50%;
+    float: right;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+    .container div {
+        padding: 10px;
+        border: 1px solid #000000;
     }
 
-footer {
-    color: #000;
-    font-style: italic;
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.wrapper {
+    display: grid;
+    width: 1000px;
+    margin: 30px auto;
+    grid-template-rows: 430px 500px;
+    grid-template-columns: 265px 265px 265px;
+    grid-gap: 30px
+}
+
+.box1 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.box2 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.box3 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.box4 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.box5 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.box6 {
+    width: 235px;
+    padding: 20px;
+    font-size: 17px;
 }
