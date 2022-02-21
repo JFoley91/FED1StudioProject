@@ -86,7 +86,7 @@ li {
 }
 
 .imgSmallHead {
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
@@ -137,11 +137,17 @@ li {
     padding: 20px;
     font-size: 17px;
 }
+.box1 :hover {
+    background-color: blue;
+}
 
-.box2 {
+.box2{
     width: 235px;
     padding: 20px;
-    font-size: 17px;
+    font-size: 17px;    
+}
+.box2 :hover{
+    background-color: blue;
 }
 
 .box3 {
@@ -149,11 +155,17 @@ li {
     padding: 20px;
     font-size: 17px;
 }
+.box3 :hover {
+    background-color: blue;
+}
 
 .box4 {
     width: 235px;
     padding: 20px;
     font-size: 17px;
+}
+.box4 :hover {
+    background-color: blue;
 }
 
 .box5 {
@@ -161,11 +173,17 @@ li {
     padding: 20px;
     font-size: 17px;
 }
+.box5 :hover {
+    background-color: blue;
+}
 
 .box6 {
     width: 235px;
     padding: 20px;
     font-size: 17px;
+}
+.box6 :hover {
+    background-color: blue;
 }
 
 
